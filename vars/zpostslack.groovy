@@ -1,6 +1,6 @@
 def call(buildStatus) {
 
-    // def buildStatus = currentBuild.currentResult ?: 'SUCCESS'
+    // def buildStatus = currentBuild.currentResult ?: 'SUCCESS' 
 
     slackSend(
         channel: params.slackChannel,
